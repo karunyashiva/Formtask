@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="FormStyle.css">
+</head>
+<body>
+    <div>
+    <header id="head"><h2>REGISTRATION FORM</h2></header>
+    <div id="main">
+    <form>
+    <h2>Student Name <sup class="star">*</sup> : <br><div id="names"><input type="text"  value="first name" required>
+        <input type="text" value="middle name">
+        <input type="text" value="last name">
+    </div><br>
+    Birth Date <sup class="star">*</sup> : <br><input type="date" required><br><br>
+    Age : <br><input type="number"><br><br>
+    Gender <sup class="star">*</sup>  : <br><input type="radio" name="gender" value="Male">Male
+    <input type="radio"  name="gender" value="Female">Female<br><br>
+    Address <sup class="star">*</sup>  : <div id="Address"><br>
+        Street Address : <br><input type="text" required> <br>
+        Street Address Line2: <br><input type="text"> <br>
+        City : <br><input type="text" required> <br>
+        State : <br><input type="text" required> <br>
+        Pincode : <br><input type="text" required> <br>
+        Country : <br><select required>
+            <option>Afghanistan</option>
+            <option>America</option>
+            <option>Australia</option>
+            <option>Bulgaria</option>
+            <option>Canada</option>
+            <option>Denmark</option>
+            <option>India</option>
+            <option>Iran</option>
+            <option>Iraq</option>
+        </select>
+    </div><br>
+    Email <sup class="star">*</sup> :<br><input type="email"  required><br><br>
+    Phone number <sup class="star">*</sup> : <br><input type="number"><br><br>
+    <input type="button" value="SUBMIT" onclick="myFunc()" id="btn"></h5>
+    </form>
+</div>
+<script src="form.js"></Script>
+</div>
+</body>
+</html>

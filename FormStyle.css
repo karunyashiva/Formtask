@@ -1,0 +1,23 @@
+header,#main{
+    margin: 4% 15%;
+    padding: 1% 10%;
+    background-image: linear-gradient(to top,rgb(204, 255, 204),rgba(204, 255, 204,0.2));
+} 
+header:hover,#main:hover,#btn:hover{
+    border:2px white groove;
+}
+#main{
+    height: relative;
+}
+body{
+    background-color: rgb(204, 204, 204)
+}  
+.star{
+    color: red;
+}
+#btn{
+    border: none;
+    padding: 2% 5%;
+    border-radius: 4%;
+  
+}
